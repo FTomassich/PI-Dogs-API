@@ -2,7 +2,7 @@ const { Router } = require('express');
 const {getAllDogs, getApiInfo}= require ('./prefetching')
 const {Dog, Temperaments} = require ('../db');
 // Importar todos los routers;
-// Ejemplo: const authRouter = require('./auth.js');
+// Ejemplo: const authRouter = require('./auth.js')
 
 
 const router = Router();
