@@ -26,8 +26,6 @@ router.get ('/dogs', async (req, res)=> {
 
 });
 
-
-
 router.get('/dogs/:id', async (req, res) => {
     const id = req.params.id;
     const totalDogs = await getAllDogs();
